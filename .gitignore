@@ -1,3 +1,7 @@
+# Textfiles
+**/Text
+*.txt
+
 # Prerequisites
 *.d
 
