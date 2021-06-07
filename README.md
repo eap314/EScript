@@ -5,4 +5,4 @@ QLang is a language that is built for simplicity and ease of use. It was mainly 
 
 This is only source code. For a better download, download with the links below.
 
-The QLang interpreter is built both branched and branchless. If you do not know the pros and cons of branchless programming, [download branched](https://craft1c.net/QLang/branched). If you do want the slight optimizations, at the cost of slower updates, [download branchless](https://craft1c.net/QLang/branchless).
+The QLang interpreter is built both branched and branchless. If you do not know the pros and cons of branchless programming, [download branched](https://craft1c.net/QLang/branched). If you do want the slight optimizations, at the cost of a longer time between updates, [download branchless](https://craft1c.net/QLang/branchless).
