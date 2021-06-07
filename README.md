@@ -1,4 +1,4 @@
-# EScript
-A programming language based upon games and optimization
+# QLang
+A programming language based upon games and optimization (Formerly EScript)
 
-EScript is a language that is built for simplicity and ease of use. It also will be easily compatible with quantum computers in the future.
+QLang is a language that is built for simplicity and ease of use. It was mainly made for future compatability with quantum computers. QLang files should go by the extension ql.
