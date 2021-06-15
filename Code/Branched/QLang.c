@@ -20,7 +20,15 @@ int err(){
 	if(e==4){printf("Multiple dots in float");}
 	return 1;
 }
-void esparse(char* f){
+void lex(char* f){
+	FILE* es=fopen(f, "rt");
+	if(es==NULL){
+		e=2;
+		err();
+		return;
+	}
+}
+void parse(char* f){
 	FILE* es=fopen(f, "rt");
 	if(es==NULL){
 		e=2;
@@ -168,7 +176,7 @@ int main(int argc, char *argv[]){
 	//program name is argv[0]
 
 	//if(strcmp(argv[1], "es")==0){esparse(argv[2]);}
-	esparse("/users/eap/desktop/c+c/offline/3d/3d.es");
+	parse("/users/eap/desktop/c+c/offline/3d/3d.es");
 	printf("\n");
 	return 0;
 }
